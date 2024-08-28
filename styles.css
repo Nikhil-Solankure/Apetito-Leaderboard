@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("colombian-national-soccer-team-concept-still-life.jpg"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the header outside the leaderboard container */
+h1 {
+    font-size: 4.5em;
+    color: #333333;
+    margin-bottom: 55px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.0); /* Slight transparency */
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.leaderboard-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency to show the background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px; /* Increased padding for more spacing inside the container */
+    width: 90%; /* Increased width to make the container larger */
+    max-width: 900px; /* Increased max-width to allow the container to be larger on wider screens */
+    margin-left: -50px; /* Adjust this value to push the container to the left */
+}
+
+.game-name {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: #555;
+    font-weight: bold;
+}
+
+.leaderboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rank {
+    width: 100%;
+    padding: 20px; /* Increased padding inside each rank for better spacing */
+    margin: 15px 0; /* Adjust margin for better spacing between ranks */
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rank-number {
+    font-weight: bold;
+    font-size: 2em; /* Slightly increased the font size for rank numbers */
+}
+
+.gold {
+    background-color: #ffd700;
+}
+
+.silver {
+    background-color: #c0c0c0;
+}
+
+.bronze {
+    background-color: #cd7f32;
+}
+
+.player-name,
+.department,
+.distance {
+    font-size: 1.6em; /* Increased font size for better readability */
+}
